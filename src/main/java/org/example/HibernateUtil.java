@@ -19,6 +19,7 @@ public class HibernateUtil {
                 .addAnnotatedClass(Buyer.class)
                 .addAnnotatedClass(Card7.class)
                 .addAnnotatedClass(VipCard.class)
+                .addAnnotatedClass(Chips.class)
                 .buildSessionFactory();
     }
 
